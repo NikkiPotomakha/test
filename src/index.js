@@ -1,15 +1,10 @@
 import { SciChartSurface } from "scichart/Charting/Visuals/SciChartSurface";
 import { NumericAxis } from "scichart/Charting/Visuals/Axis/NumericAxis";
 async function initSciChart() {
-  // LICENSING //
-  // Set your license code here
-  // You can get a trial license key from https://www.scichart.com/licensing-scichart-js/
-  // Purchased license keys can be viewed at https://www.scichart.com/profile
-  //
-  // e.g.
-  //
-  // SciChartSurface.setRuntimeLicenseKey("YOUR_RUNTIME_KEY");
-  //
+  SciChartSurface.SetRuntimeLicenseKey(
+    "l5fEwjBE4cFCQHjR96zUEKP4TC+rbu8K6iht3WIpE5Si4V1QRQ3a5msDnPxUCHmjdS65dW3SsuqE5NARTBJX+MWnV/xmageg2RupEorEtB2lkecuZrkjrL/56UdiNhkhU+ZPA9RPQTwIXisieboVUtwpAG3dmwG3SNNkxxfTsaxOqbqWldTQsXdaU8R/DZVsHibScwTS/IBBbsGABfJzjR1RNmBy5lWSxMa+d6p91FrORQLhzwoVBGDg6IR+WZFkk4n5nDI17vV6eCOqyzIjrcaCpuRY7945EiSiSU2/HanRIILYHHZ9PD8kz4acQLIhu6a4UuoeaIIpbrpbnCCJqNAD+FDDnj8vM0jnL/WwykiI0PeySiW2c/8qo6NhseUW8TvWmETYZqTiUv/QLUpMCV++bucnFPl77NwB/6DuCK9Z5H+TGJhC4U4BvzfBwkM8PEMJ2OVeWpU8Tjd8Jhwqa/mpwJbbe8qFbe5J9mibfvon/XOW597vA0REiWQWHLwUlzBszjwI+bMxKQPd+3JzSWA1xs3WwiWJLRhR/4rYfezL4wIQxDVmMH50rA3upP9d8X8Onzax95W1e3OLAUH0SDEmd5zixBWN"
+  );
+
   // Also, once activated (trial or paid license) having the licensing wizard open on your machine
   // will mean any or all applications you run locally will be fully licensed.
   // Create the SciChartSurface in the div 'scichart-root'
